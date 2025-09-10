@@ -34,15 +34,16 @@ Um jogo clássico de Pedra, Papel e Tesoura desenvolvido em HTML, CSS e JavaScri
 
 ## 📦 Instalação
 
-`bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/pedra-papel-tesoura.git
+### bash
 
-# Entre no diretório
-cd pedra-papel-tesoura
+- **Clone o repositório**
+git clone https://github.com/thiagoSantz/Rock-Paper-Scissors.git
 
-# Abra o arquivo index.html no navegador
-# ou use um servidor local:
+- **Entre no diretório**
+cd Rock-Paper-Scissors
+
+- **Abra o arquivo index.html no navegador**
+- **ou use um servidor local:** 
 python -m http.server 8000
 
 # 📄 Licença
