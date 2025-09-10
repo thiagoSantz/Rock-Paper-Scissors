@@ -56,6 +56,6 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 Thiago Gonçalves Santana - thiagoSantz
 
 # 📞 Contato
-Seu Nome - GitHub - Email
+Thiago Santana - thiagoSantz - thiagosantz@gmail.com
 
 # ⭐ Deixe uma star se gostou!
