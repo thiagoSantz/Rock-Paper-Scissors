@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedra Papel ou Tesoura</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="conteiner titulo">
+      <div class="texto titulo">Pedra Papel ou Tesoura</div>
+      <div class="botoes-coluna reset">
+        <button id="botaoReset"><i class="fa fa-arrows-rotate"></i></button>
+      </div>
+    </div>
+
+    <!-- Resultado -->
+    <div class="conteiner placar">
+      <div class="texto placar">Placar:</div>
+
+      <div class="conteiner interno">
+        <div class="texto player">Você :</div>
+        <div id="human-score" class="pontuacao player">0</div>
+      </div>
+
+      <div class="conteiner interno">
+        <div class="texto pc">PC :</div>
+        <div id="pc-score" class="pontuacao pc">0</div>
+      </div>
+
+      <div class="conteiner interno restante">
+        <div class="texto jogada">Jogadas Restantes</div>
+        <div class="texto jogada ponto">:</div>
+        <div id="jogadas-restantes" class="pontuacao jogadas">5</div>
+      </div>
+    </div>
+
+    <div class="box jogo">
+      <!-- PC -->
+      <div class="conteiner pc">
+        <div class="texto pc">Jogada Pc :</div>
+        <div class="botoes-coluna pc">
+          <button id="pc-pedra"><i class="fa fa-hand-rock"></i></button>
+          <button id="pc-papel"><i class="fa fa-hand"></i></button>
+          <button id="pc-tesoura"><i class="fa fa-hand-scissors"></i></button>
+        </div>
+      </div>
+
+      <!-- Jogador -->
+      <div class="conteiner player">
+        <div class="texto player">Sua Jogada :</div>
+        <div class="botoes-coluna player">
+          <button onclick="jogar('pedra')">
+            <i class="fa fa-hand-rock"></i>
+          </button>
+          <button onclick="jogar('papel')"><i class="fa fa-hand"></i></button>
+          <button onclick="jogar('tesoura')">
+            <i class="fa fa-hand-scissors"></i>
+          </button>
+        </div>
+
+        <!-- <div
+          id="resultado-container"
+          class="resultado-container"
+          style="display: none"
+        >
+          <div id="texto-resultado" class="texto-resultado"></div>
+          <button onclick="voltarParaJogo()" class="botao-continuar">
+          <i class="fa fa-arrows-rotate"></i>
+          </button>
+        </div> -->
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
