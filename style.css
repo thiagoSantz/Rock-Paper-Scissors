@@ -340,27 +340,28 @@ body {
     body, html {
         padding:  5px;
     }
+
     .conteiner.titulo{
         padding: 30px 5px;
     }
 
     .conteiner.placar{
-        padding: 50px 5px;
+        padding: 40px 5px;
     }
     
     .conteiner.player,
     .conteiner.pc {
         justify-content: space-evenly;
         padding-top: 30px;
-        padding-bottom: 80px;
+        padding-bottom: 70px;
     }
 
     .botoes-coluna {
-        gap: 50px;
+        gap: 40px;
     }
 
     .texto.pc, .texto.player {
-        padding-top: 20px;
-        padding-bottom: 60px;
+        padding-top: 10px;
+        padding-bottom: 50px;
     }
 }
