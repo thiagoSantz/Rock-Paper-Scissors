@@ -355,8 +355,8 @@ body {
     .conteiner.player,
     .conteiner.pc {
         justify-content: space-evenly;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 40px;
     }
     
     .botoes-coluna {
