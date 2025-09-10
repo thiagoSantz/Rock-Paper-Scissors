@@ -85,7 +85,7 @@ body {
     justify-content: center;    /* Alinha verticalmente */
     align-items: center;        /* Alinha horizontalmente */
     text-align: center;         /* Alinha o texto */
-    gap: 10px;   
+    gap: 5px;   
     min-width: 0; /* IMPORTANTE: permite que o texto quebre */
     overflow: hidden; /* esconde conteúdo que ultrapassar */
 }
@@ -345,22 +345,32 @@ body {
     }
 
     .conteiner.titulo{
-        padding: 20px 5px;
+        padding: 15px 5px;
     }
 
     .conteiner.placar{
-        padding: 10px 5px;
+        padding: 4px 4px;
     }
-    
+
     .conteiner.player,
     .conteiner.pc {
         justify-content: space-evenly;
         padding-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
     
     .botoes-coluna {
         gap: 20px;
+    }
+
+    .texto.resultado {
+        font-size: 12px;
+    }
+
+    .pontuacao.pc,
+    .pontuacao.player,
+    .pontuacao.jogadas{
+        font-size: 22px;
     }
 
     .texto.pc, .texto.player {
