@@ -346,28 +346,7 @@ body {
     }
     .conteiner.player,
     .conteiner.pc {
-        padding: 50px 0px;
-    }
-
-    .conteiner.interno {
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    body, html {
-        padding:  5px;
-    }
-    .conteiner.titulo{
-        padding: 30px;
-    }
-
-    .conteiner.placar{
-        padding: 20px ;
-    }
-    .conteiner.player,
-    .conteiner.pc {
-        padding: 40px 0px;
+        padding: 50px;
     }
 
     .conteiner.interno {
