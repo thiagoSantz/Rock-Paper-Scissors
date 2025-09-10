@@ -345,18 +345,18 @@ body {
     }
 
     .conteiner.placar{
-        padding: 60px 5px;
+        padding: 50px 5px;
     }
     
     .conteiner.player,
     .conteiner.pc {
         justify-content: space-evenly;
-        padding-top: 40px;
-        padding-bottom: 100px;
+        padding-top: 30px;
+        padding-bottom: 80px;
     }
 
     .botoes-coluna {
-        gap: 60px;
+        gap: 50px;
     }
 
     .texto.pc, .texto.player {
