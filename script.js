@@ -211,16 +211,16 @@ function mostrarResultadoFinal() {
         mensagem = `EMPATE! \n\nPlacar: ${humanScore} x ${pcScore}`;
     }
     
-    mensagem += `\n\nReiniciando em 3 segundos...`;
+    mensagem += `\n\nReiniciando em 5 segundos...`;
     resultadoFinal.textContent = mensagem;
     document.body.appendChild(resultadoFinal);
     
     // Contagem regressiva
-    let segundos = 3;
+    let segundos = 5;
     const intervalo = setInterval(() => {
         segundos--;
         if (segundos > 0) {
-            resultadoFinal.textContent = mensagem.replace('3 segundos', `${segundos} segundos`);
+            resultadoFinal.textContent = mensagem.replace('5 segundos', `${segundos} segundos`);
         } else {
             clearInterval(intervalo);
             document.body.removeChild(resultadoFinal);
