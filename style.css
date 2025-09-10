@@ -90,13 +90,6 @@ body {
     overflow: hidden; /* esconde conteúdo que ultrapassar */
 }
 
-.texto.pc,
-.texto.player,
-.pontuacao.pc, 
-.pontuacao.player {
-    ;
-}
-
 .conteiner.interno.restante {
     display: flex;
     justify-content: center;
