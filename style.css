@@ -356,11 +356,11 @@ body {
     .conteiner.pc {
         justify-content: space-evenly;
         padding-top: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
     
     .botoes-coluna {
-        gap: 30px;
+        gap: 20px;
     }
 
     .texto.pc, .texto.player {
