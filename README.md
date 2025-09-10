@@ -32,6 +32,9 @@ Um jogo clássico de Pedra, Papel e Tesoura desenvolvido em HTML, CSS e JavaScri
 - **Font Awesome** - Ícones
 - **Flexbox** - Layout responsivo
 
+## 🌐 Demo Online
+[🔗 Jogar Agora](https://thiagosantz.github.io/Rock-Paper-Scissors/)
+
 ## 📦 Instalação
 
 ### bash
@@ -51,3 +54,8 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 # 👨‍💻 Autor
 Thiago Gonçalves Santana - thiagoSantz
+
+# 📞 Contato
+Seu Nome - GitHub - Email
+
+# ⭐ Deixe uma star se gostou!
