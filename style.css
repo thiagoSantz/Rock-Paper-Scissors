@@ -16,6 +16,8 @@ body, html {
 body {
     background: linear-gradient(135deg, #0a0a0a 0%, #121212 20%, #1e1e1e 50%, #121212 80%);
     background-attachment: fixed;
+    padding-top: 25px;
+    gap: 5px;
 }
 /*#endregion*/
 
@@ -337,6 +339,32 @@ body {
 }
 
 /*#endregion*/
+
+.conteiner.footer {
+    justify-content: center;
+}
+
+.conteiner.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.conteiner.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.conteiner.footer a::before {
+    content: none;
+}
+
+.conteiner.footer a:hover {
+    color: #3c45e7;
+    border-bottom: 1px solid #3c45e7;
+}
 
 /*Media Queries*/
 @media (max-width: 768px) {
